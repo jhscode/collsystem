@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Login from './login';
+import Login from './Login';
 import Summary from './Summary';
 import Counterparties from './Counterparties';
 import NotFound from './NotFound';
