@@ -4,7 +4,9 @@ class Counterparties extends React.Component {
   render() {
     return (
       <div>
-        <div>Couterparties</div>
+        <div>
+          <h3>Counterparties</h3>
+        </div>
       </div>
     );
   }
