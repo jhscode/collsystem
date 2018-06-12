@@ -8,12 +8,12 @@ class App extends React.Component {
     return (
       <div>
         <header>
-          <Navigation />
+          <Navigation className="navigation" />
         </header>
         <div>
-          <Summary />
+          <Summary className="summary" />
         </div>
-        <Counterparties />
+        <Counterparties className="counterparties" />
       </div>
     );
   }
