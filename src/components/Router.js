@@ -1,16 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Login from './Login';
-import Summary from './Summary';
-import Counterparties from './Counterparties';
+import App from './App';
 import NotFound from './NotFound';
 
 const Router = () => (
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={Login} />
-      <Route exact path="/summary" component={Summary} />
-      <Route exact path="/Counterparties" component={Counterparties} />
+      <Route exact path="/home" component={App} />
       <Route component={NotFound} />
     </Switch>
   </BrowserRouter>
