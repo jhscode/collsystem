@@ -1,5 +1,7 @@
 import React from 'react';
+import Collateral from './Collateral';
 
+// input form for each counterparty's collateral eligibility
 class Counterparties extends React.Component {
   render() {
     return (
@@ -8,14 +10,8 @@ class Counterparties extends React.Component {
           <h3>
             <form>
               <input className="name" type="text" placeholder="name" />
-              <input
-                className="threshold"
-                type="value"
-                placeholder="threshold"
-              />
-              <input className="mta" type="value" placeholder="mta" />
-              <input className="rounding" type="value" placeholder="rounding" />
             </form>
+            <Collateral />
           </h3>
         </div>
       </div>
