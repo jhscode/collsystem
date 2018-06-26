@@ -10,10 +10,12 @@ class App extends React.Component {
         <header>
           <Navigation className="navigation" />
         </header>
-        <div>
+        <div className="container">
           <Summary className="summary" />
         </div>
-        <Counterparties className="counterparties" />
+        <div className="container">
+          <Counterparties className="counterparties" />
+        </div>
       </div>
     );
   }
